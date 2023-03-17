@@ -1,0 +1,56 @@
+body {
+    background-color: #36c076;
+    text-align: center;
+}
+
+div {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p {
+    display: none;
+}
+
+@media  screen and (max-width: 1440px) and (min-width: 1025px) {
+    body {
+        background-color: #008000;
+    }
+
+    .screen1440 {
+        display: block;
+    }
+    
+}
+
+@media  screen and (max-width: 1024px) and (min-width: 769px) {
+    body {
+        background-color: #703d02;
+    }
+
+    .screen1024 {
+        display: block;
+    }
+    
+}
+
+@media  screen and (max-width: 768px) and (min-width: 426px) {
+    body {
+        background-color: #15c4c4;
+    }
+    
+    .screen768 {
+        display: block;
+    }
+}
+
+@media  screen and (max-width: 425px) {
+    body {
+        background-color: #ff0000;
+    }
+
+    .screen425 {
+        display: block;
+    }
+    
+}
